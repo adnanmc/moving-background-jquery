@@ -1,0 +1,37 @@
+#stage {
+			top: 0px;
+			left: 0px;
+			z-index: 100;
+		}
+.stage {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-width: 900px;
+			height: 512px;
+			overflow: hidden;
+/*            background-color: red;*/
+}
+
+
+#bg {
+			background: #aedfe5 url(img/Sky.png) 0 0 repeat-x;
+		}
+#clouds {
+			background: transparent url(img/Clouds.png) 305px 102px repeat-x;
+		}
+#hill2 {
+			background: transparent url(img/MountainB.png) 0 225px repeat-x;
+		}
+#hill1 {
+			background: transparent url(img/MountainA.png) 0 200px repeat-x;
+		}
+#land {
+    background: transparent url(img/Land.png) 0 425px repeat-x;
+}
+
+#zombie {
+    background: transparent 100% 85% no-repeat;
+    background-size: 200px 200px;
+}
